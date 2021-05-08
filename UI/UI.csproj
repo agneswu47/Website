@@ -68,18 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="3-0-1.html" />
-    <Content Include="SongLyrics.aspx" />
+    <Content Include="SongBin.html" />
+    <Content Include="SongLyrics.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SongLyrics.aspx.cs">
-      <DependentUpon>SongLyrics.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SongLyrics.aspx.designer.cs">
-      <DependentUpon>SongLyrics.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\1989.pdf" />
