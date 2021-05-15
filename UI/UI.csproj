@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="3-0-1.html" />
+    <Content Include="4-0-1.html" />
     <Content Include="SongBin.html" />
     <Content Include="SongLyrics.html" />
     <Content Include="Web.config" />

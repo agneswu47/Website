@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>4-0-1</title>
+   
+    <script>
+        //*********************82021/05/15*****************************
+        //parameter : * number1
+        //          : * number2
+        //return    : * a new number
+
+        function addnumbers(number1, number2)
+        {
+            let number3;
+            number3 = number1 + number2;
+            return number3;
+        }
+
+        function body_onload()
+        {
+            let result, result2, result3;
+
+            result = addnumbers(1, 2);
+            console.log(result);
+
+
+            result = subtractNumbers(3, 4);
+            console.log(result);
+
+            result = multiplyNumbers(3, 4);
+            console.log(result);
+
+            result = devideNumbers(3, 4);
+            console.log(result);
+
+            result = powerOfNumber(3);
+            console.log(result);
+
+            result = getFullName("Ngoc", "Thao");
+            console.log(result);
+
+            let firstName;
+            let lastName;
+            let fullName;
+
+            firstName = "Ngoc Thao";
+            lastName = "Vu Nguyen";
+
+            fullName = getFullName(lastName, firstName);
+            console.log(fullName);
+
+            console.log(getFullName("Nguyen", "Thi Hong"));
+            console.log(getFullName("Nguyen", "Thi Hoa"));
+            console.log(getFullName("Nguyen", "Thi Phuong"));
+            console.log(getFullName("Nguyen", "Thi Hong"));
+
+        }
+
+        function sayHelloTheScript()
+        {
+            console.log("Hello");
+            alert("Hello");
+            //curley braces: { }
+        }
+
+        function subtractNumbers(number1, number2)
+        {        
+            return (number3 = number1 - number2);
+        }
+
+        function multiplyNumbers(number1, number2)
+        {
+            let number3 = number1 * number2;
+            return (number1 * number2);
+        }
+
+        function devideNumbers(number1, number2)
+        {
+            let number3;
+            number3 = number1 / number2;
+            return number3;
+        }
+
+        function powerOfNumber(number) {
+            return (number * number);
+        }
+
+        
+        //****
+        function getFullName(str1, str2)
+        {
+            let str3;
+
+            str3 = str1+ " " + str2;
+            return str3
+        }
+
+        function clickMe()
+        {
+            alert("You just click me");
+        }
+
+       
+
+    </script>
+</head>
+<body onload="body_onload()">
+    <input type="button" value="Click me" onclick="clickMe()" />
+    <input type="button" value="Hello" onclick="sayHelloTheScript()" />
+    <input type="button" value="Add" onclick="console.log(addnumbers(5,6))" />
+
+</body>
+</html>
