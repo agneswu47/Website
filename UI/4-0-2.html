@@ -1,0 +1,41 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>4.0.2</title>
+
+    <!-- library javascript -->
+    <script src="scripts/Math/Calculation.js?v=3"></script>
+    <script src="scripts/Text/TextHelper.js?v=2"></script>
+
+    <!-- inline -->
+    <script>
+        function bodyOnLoad() {
+            let strRet;
+            strRet = addNumbers("1", 5);
+            console.log("strRet " + strRet);
+
+            //convert a string to number
+            //let iRet;
+            //iRet = parseInt(strRet);
+            //console.log("iRet " + iRet);
+
+            //let iRet2;
+            //iRet2 = addNumbers(iRet, 3);
+            //console.log("iRet2 " + iRet2);
+        }
+
+        function test() {
+            alert(concatenate(3, 6));
+        }
+    </script>
+
+</head>
+
+<body onload="bodyOnLoad()">
+
+    <input type="button" value="Concatenate" onclick="test()" />
+
+</body>
+</html>

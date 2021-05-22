@@ -69,6 +69,12 @@
   <ItemGroup>
     <Content Include="3-0-1.html" />
     <Content Include="4-0-1.html" />
+    <Content Include="4-0-2.html" />
+    <Content Include="5-0-1.html" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="scripts\Math\Calculation.js" />
+    <Content Include="scripts\Calculation2.js" />
+    <Content Include="scripts\TextHelper\Texthelper.js" />
     <Content Include="SongBin.html" />
     <Content Include="SongLyrics.html" />
     <Content Include="Web.config" />

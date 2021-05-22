@@ -1,0 +1,42 @@
+﻿
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>5.0.1</title>
+
+    <!-- library javascript -->
+    <script src="scripts/Text/TextHelper.js?v=2"></script>
+
+    <!-- inline -->
+    <script>
+        function bodyOnLoad() {
+
+        }
+
+        function createTable() {
+            let sHtml = "<table>" +
+                "<tr>" +
+                "<td style='border:1px solid red;'>No</td>" +
+                "<td style='border:1px solid red;'>Tên bài</td>" +
+                "<td style='border:1px solid red;'>Lời ca</td>" +
+                "<td style='border:1px solid red;'>Câu đầu</td>" +
+                "</tr>" +
+                "</table>";
+
+            document.getElementById("divResult2").innerHTML = sHtml;
+        }
+    </script>
+
+</head>
+
+<body onload="bodyOnLoad()">
+
+    <input type="button" value="Create Table" onclick="createTable()" />
+
+    <div id="divResult" style="border:1px solid black; width:500px; height: 200px;"></div>
+    <div id="divResult2" style="border:1px solid brown; width:500px; height: 200px;"></div>
+
+
+</body>
+</html>
